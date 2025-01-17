@@ -1,0 +1,63 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Poppins', sans-serif;  /* Updated font */
+    background: linear-gradient(135deg, #6e7f9d, #3b4e74); /* Blue to purple gradient */
+    background-size: cover;  /* Ensures the background covers the whole page */
+    color: white;  /* Makes text stand out on the darker background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for the whole page */
+.container {
+    text-align: center;
+}
+
+/* Header style */
+h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+/* Button container */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Button style */
+.button {
+    text-decoration: none;
+    display: block;
+    width: 200px;
+    padding: 15px;
+    margin: 0 auto;
+    background: linear-gradient(145deg, #007bff, #0056b3);  /* Gradient background */
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;  /* Updated font */
+    font-weight: 600;  /* Bold font for buttons */
+    border-radius: 30px;  /* More rounded corners */
+    text-align: center;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);  /* Subtle shadow */
+    transition: all 0.3s ease;  /* Smooth transition */
+}
+
+/* Hover effect */
+.button:hover {
+    background: linear-gradient(145deg, #0056b3, #007bff);  /* Reversed gradient on hover */
+    transform: translateY(-4px);  /* Lift effect */
+    box-shadow: 4px 8px 15px rgba(0, 0, 0, 0.2);  /* More pronounced shadow */
+}
